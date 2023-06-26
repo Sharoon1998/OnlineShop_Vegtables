@@ -1,0 +1,81 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background:linear-gradient(45deg, #b3c621, #96f086, #52a6e2);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackContainer
+{
+    width: 26%;
+    height: 70vh;
+    border-radius: 0.5em;
+    background:linear-gradient(rgb(198, 213, 86),rgb(4, 211, 73));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackContainer form
+{
+    width: 90%;
+    height: 90%;
+    /* background: yellow; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.feedbackContainer form section
+{
+    width: 100%;
+    height: 6vh;
+    /* background: green; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.feedbackContainer form section h1
+{
+    color: rgb(11, 11, 11);
+    font-size: 2.4em;
+    letter-spacing: 0.1em;
+}
+.feedbackContainer form section:nth-child(2)
+{
+    height: 45vh;
+}
+.feedbackContainer form section input
+{
+    width: 80%;
+    height: 5vh;
+    border: none;
+    border: 2px solid white;
+    border-width: 0px 0px 2px 0px;
+    outline: 0px;
+    background: none;
+}
+.feedbackContainer form section input:focus
+{
+    border: 2px solid yellow;
+    border-width: 0px 0px 2px 0px;
+}
+.feedbackContainer form section textarea
+{
+    width: 80%;
+    height: 20vh;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+}
+#submit
+{
+    border-radius: 50px;
+    border: none;
+    background: white;
+}
